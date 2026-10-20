@@ -1,0 +1,211 @@
+
+/* =============== Global Style =============== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #F3F7FB;
+}
+.float-left {
+    float: left;
+}
+.clear-fix {
+    clear: both;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+.radius-20 {
+    border-radius: 20px;
+}
+.py-40 {
+    padding-block: 40px;
+}
+.text-center {
+    text-align: center;
+}
+.main-sec {
+    padding-inline: 30px;
+    background-color: #FFFFFF;
+}
+hr {
+    border: none; 
+    border-top: 2px solid #DCEEFF;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #0B3D73;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/* =============== Start Header section Style =============== */
+.header {
+    background-color: #18487B;
+}
+
+.header h1 {
+    font-size: 40px;
+    color: white;
+
+} 
+
+.header p {
+    color: #ACD3F6;
+    font-size: 17px;
+    margin-block: 30px;
+}
+.header .buttons button {
+    background-color: #2A5685;
+    color: white;
+    font-size: 18px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+/* =============== End Header section Style =============== */
+
+/* =============== Start About Me section Style =============== */
+
+.about-me .intro .left-sec {
+    width: 15%;
+    margin-right: 25px;
+} 
+.about-me .intro .left-sec img {
+    width: 100%;
+    border-radius: 50%;
+}
+.about-me .intro .right-sec p {
+    line-height: 2;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #58638A;
+}
+.about-me .intro .right-sec p span {
+    color: #0B65AD;
+    font-weight: bold;
+}
+.about-me .intro .right-sec button {
+    background-color: #0B65AD;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 15px 24px;
+    border-radius: 10px;
+}
+
+/* =============== End About Me section Style =============== */
+
+/* =============== Start My Skills section Style =============== */
+.skills p {
+    font-size: 17px;
+    margin-block: 30px;
+}
+.skills .skill-items .item {
+    background-color: #F9FCFF;
+    width: 25%;
+    padding: 10px;
+}
+.skills .skill-items .item .inner {
+    border: 2px solid #DCEEFF;
+    padding: 20px;
+    border-radius: 15px;
+}
+.skills .skill-items .item .inner h3 {
+    color: #277EBF;
+    margin-bottom: 20px;
+}
+.skills .skill-items .item .inner p {
+    line-height: 1.5; 
+    font-size: 17px;
+}
+/* =============== End My Skills section Style =============== */
+
+/* =============== Start Experience section Style =============== */
+.experience-item {
+    background-color: #F8FAFC;
+    border-left: 5px solid #0B65AD;
+    margin-top: 30px;
+}
+.experience .upper-sec .left-upper-sec {
+    width: 7%;
+    margin-right: 30px;
+} 
+.experience .upper-sec .left-upper-sec img {
+    width: 100%;
+}
+.experience .upper-sec .right-upper-sec .text-1 {
+    color: #2E4B75;
+    font-weight: bold;
+    font-size: 20px;
+}
+.experience .upper-sec .right-upper-sec .text-2 {
+    margin-block: 20px;
+    color: #1765AD;
+    font-weight: bold;
+    font-size: 18px;
+}
+.experience .upper-sec .right-upper-sec .text-3 {
+    font-size: 18px;
+    color: #2E3069;
+}
+.experience .lower-sec {
+    margin-top: 20px;
+}
+.experience .lower-sec p {
+    font-size: 17px;
+    color: #2E3069;
+}
+/* =============== End Experience section Style =============== */
+
+/* =============== Start Contact section Style =============== */
+.contact {
+    background-color: #18487B;
+}
+.contact h2 {
+    color: white;
+}
+.contact hr {
+    border-color: #4e7eb3;
+}
+.contact .contact-item p {
+    color: white;
+    font-size: 17px;
+}
+.contact .contact-item .contact-ways {
+    margin-top: 40px;
+}
+.contact .contact-item .contact-ways a {
+    padding: 15px 20px;
+    background-color: #305B88;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 17px;
+}
+/* =============== End Contact section Style =============== */
+
+/* =============== Start Footer section Style =============== */
+.footer {
+    background-color: #071A35;
+    color: white;
+    margin-block: 30px;
+
+}
+.footer .copy-right {
+    width: 35%;
+    margin: auto;
+    font-size: 17px;
+}
+.footer .copy-right span {
+    color: #7BC8FF;
+    font-weight: bold;
+}
+/* =============== End Footer section Style =============== */
